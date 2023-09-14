@@ -2,29 +2,27 @@ class ReacaoDiasdaSemana{
 
 public static void main(String[] args){
 
-String dia = args[0];
+String numString = args[0];
+
+int dia = Integer.parseInt(numString);
 
 switch(dia){
 
-case "segunda":
+case 1:
 	System.out.println("Ainda é segunda");
 	break;
-case "terca":
+case 2:
 	System.out.println("Ainda é terça");
 	break;
-case "quarta":
+case 3:
 	System.out.println("Quarta...");
 	break;
-case "quinta":
+case 4:
+case 5:
 	System.out.println("Quase fds");
 	break;
-case "sexta":
-	System.out.println("Quase fds");
-	break;
-case "sabado":
-	System.out.println("FDS!!");
-	break;
-case "domingo":
+case 6:
+case 7:
 	System.out.println("FDS!!");
 	break;
 	
